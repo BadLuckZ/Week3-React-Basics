@@ -1,9 +1,14 @@
-import { useState } from "react";
+const Button = () => {
+  return <button></button>;
+};
 
 function App() {
   return (
     <>
-      <h1>Hello World!</h1>
+      <Button />
+      <Button />
+      <Button />
+      <Button />
     </>
   );
 }
