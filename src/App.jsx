@@ -4,7 +4,12 @@ import MyCountDown from "../components/MyCountdown.jsx";
 function App() {
   return (
     <>
-      <MyCountDown startTime={10} />
+      <MyButton>Hello!</MyButton>
+      <MyButton style={{ color: "red" }}>Press Me!</MyButton>
+      <MyButton style={{ backgroundColor: "red", color: "white" }}>
+        OK!
+      </MyButton>
+      <MyButton>Cancel!</MyButton>
     </>
   );
 }

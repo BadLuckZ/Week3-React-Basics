@@ -1,5 +1,5 @@
-const MyButton = ({ text, style }) => {
-  return <button style={style}>{text}</button>;
+const MyButton = ({ children, style }) => {
+  return <button style={style}>{children}</button>;
 };
 
 export default MyButton;
