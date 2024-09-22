@@ -1,14 +1,16 @@
-const Button = () => {
-  return <button></button>;
+const Button = (props) => {
+  const text = props.text;
+  const style = props.style;
+  return <button style={style}>{text}</button>;
 };
 
 function App() {
   return (
     <>
-      <Button />
-      <Button />
-      <Button />
-      <Button />
+      <Button text="My Button" style={{ backgroundColor: "red" }} />
+      <Button text="Press Me" style={{ color: "blue" }} />
+      <Button text="OK" style={{ backgroundColor: "grey", color: "white" }} />
+      <Button text="Cancel" />
     </>
   );
 }
