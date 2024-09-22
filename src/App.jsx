@@ -1,6 +1,4 @@
-const Button = (props) => {
-  const text = props.text;
-  const style = props.style;
+const Button = ({ text, style }) => {
   return <button style={style}>{text}</button>;
 };
 
