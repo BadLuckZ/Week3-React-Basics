@@ -4,7 +4,7 @@ import MyCountDown from "../components/MyCountdown.jsx";
 function App() {
   return (
     <>
-      <MyCountDown />
+      <MyCountDown startTime={10} />
     </>
   );
 }
